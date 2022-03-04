@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9sZ-fJ-2mA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9sZ-fJ-2mA">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -24,11 +24,21 @@
                                     <action selector="openPDFView" destination="p4k-Pv-gpq" eventType="touchUpInside" id="2KR-wk-Oka"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wrA-9s-5xI">
+                                <rect key="frame" x="124.66666666666669" y="457.66666666666669" width="141" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Show cached PDF"/>
+                                <connections>
+                                    <action selector="openSavedPDFView" destination="p4k-Pv-gpq" eventType="touchUpInside" id="VQM-me-vne"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="v3g-rS-p4S"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="bts-fu-dWd" firstAttribute="centerX" secondItem="vmw-t4-LAO" secondAttribute="centerX" id="3t5-Va-xak"/>
+                            <constraint firstItem="wrA-9s-5xI" firstAttribute="top" secondItem="bts-fu-dWd" secondAttribute="bottom" constant="20" id="WQ7-4Y-6PC"/>
+                            <constraint firstItem="wrA-9s-5xI" firstAttribute="centerX" secondItem="vmw-t4-LAO" secondAttribute="centerX" id="ik3-FI-fwv"/>
                             <constraint firstItem="bts-fu-dWd" firstAttribute="centerY" secondItem="vmw-t4-LAO" secondAttribute="centerY" id="k0k-9A-dcB"/>
                         </constraints>
                     </view>
