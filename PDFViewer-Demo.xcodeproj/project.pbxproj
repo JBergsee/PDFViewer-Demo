@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04D82D6227DD47A1008B0A33 /* noOutlineExample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 04D82D6127DD47A1008B0A33 /* noOutlineExample.pdf */; };
 		04F702D827ACA7E300F5DEFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F702D727ACA7E300F5DEFF /* AppDelegate.swift */; };
 		04F702DA27ACA7E300F5DEFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F702D927ACA7E300F5DEFF /* SceneDelegate.swift */; };
 		04F702DF27ACA7E300F5DEFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F702DD27ACA7E300F5DEFF /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04D82D6127DD47A1008B0A33 /* noOutlineExample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = noOutlineExample.pdf; sourceTree = "<group>"; };
 		04F702D427ACA7E300F5DEFF /* PDFViewer-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDFViewer-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F702D727ACA7E300F5DEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F702D927ACA7E300F5DEFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				04F702E227ACA7E500F5DEFF /* LaunchScreen.storyboard */,
 				04F702E527ACA7E500F5DEFF /* Info.plist */,
 				04F7031227AD69A500F5DEFF /* file-example_PDF_1MB.pdf */,
+				04D82D6127DD47A1008B0A33 /* noOutlineExample.pdf */,
 			);
 			path = "PDFViewer-Demo";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				04F702E427ACA7E500F5DEFF /* LaunchScreen.storyboard in Resources */,
 				04F702E127ACA7E500F5DEFF /* Assets.xcassets in Resources */,
 				04F702DF27ACA7E300F5DEFF /* Main.storyboard in Resources */,
+				04D82D6227DD47A1008B0A33 /* noOutlineExample.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

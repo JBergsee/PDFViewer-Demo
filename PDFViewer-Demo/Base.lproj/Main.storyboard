@@ -32,12 +32,22 @@
                                     <action selector="openSavedPDFView" destination="p4k-Pv-gpq" eventType="touchUpInside" id="VQM-me-vne"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYb-L2-rj7">
+                                <rect key="frame" x="114.66666666666669" y="533" width="161" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Show no_outline PDF"/>
+                                <connections>
+                                    <action selector="openNoOutlinePDF" destination="p4k-Pv-gpq" eventType="touchUpInside" id="isJ-Po-Irr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="v3g-rS-p4S"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="bts-fu-dWd" firstAttribute="centerX" secondItem="vmw-t4-LAO" secondAttribute="centerX" id="3t5-Va-xak"/>
+                            <constraint firstItem="IYb-L2-rj7" firstAttribute="centerX" secondItem="vmw-t4-LAO" secondAttribute="centerX" id="5vR-OV-afp"/>
                             <constraint firstItem="wrA-9s-5xI" firstAttribute="top" secondItem="bts-fu-dWd" secondAttribute="bottom" constant="20" id="WQ7-4Y-6PC"/>
+                            <constraint firstItem="IYb-L2-rj7" firstAttribute="centerY" secondItem="vmw-t4-LAO" secondAttribute="centerY" multiplier="1.3" id="ifT-4i-8xa"/>
                             <constraint firstItem="wrA-9s-5xI" firstAttribute="centerX" secondItem="vmw-t4-LAO" secondAttribute="centerX" id="ik3-FI-fwv"/>
                             <constraint firstItem="bts-fu-dWd" firstAttribute="centerY" secondItem="vmw-t4-LAO" secondAttribute="centerY" id="k0k-9A-dcB"/>
                         </constraints>
